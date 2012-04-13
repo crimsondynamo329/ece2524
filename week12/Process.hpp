@@ -21,10 +21,11 @@ public:
     // prevent copying and assignment
     Process(const Process &p);
     Process& operator=(const Process &p);
-
+/*
     //Implement a move constructor   
     Process(Process&& other);
     Process& operator=(Process&& other);
+*/
 
     ~Process();
 
